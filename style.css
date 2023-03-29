@@ -37,10 +37,14 @@ h1 {
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     h1 {
         font-size: 2rem;
         margin-top: 10vh;
+    }
+
+    h4 {
+        font-size: 0.7rem;
     }
 
     .yes, .no, .refresh {
